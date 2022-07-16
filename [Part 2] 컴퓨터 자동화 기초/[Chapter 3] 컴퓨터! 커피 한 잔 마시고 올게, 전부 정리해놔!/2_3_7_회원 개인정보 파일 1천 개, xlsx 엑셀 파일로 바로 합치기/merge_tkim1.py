@@ -19,6 +19,7 @@ outfile_name = 'merged_ID_tkim1.xlsx'
 
 files = os.listdir(p2)
 
+# 엑셀 워크북 생성할 때 괄호 안에 경로를 지정해주면 안됨! -> 각 셀 값들 변환이 불가능!
 new_file = openpyxl.Workbook()
 try:
     new_file.create_sheet(index=0, title='Sheet')
