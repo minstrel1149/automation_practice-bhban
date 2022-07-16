@@ -48,6 +48,7 @@ for i in range(len(files)):
     for j in range(len(contents)):
         new_sheet.cell(i+2, j+1).value = contents[j]
 
+# 한 번 만들어진 headers를 1행에 업데이트
 for i in range(len(headers)):
     new_sheet.cell(1, i+1).value = headers[i]
 
