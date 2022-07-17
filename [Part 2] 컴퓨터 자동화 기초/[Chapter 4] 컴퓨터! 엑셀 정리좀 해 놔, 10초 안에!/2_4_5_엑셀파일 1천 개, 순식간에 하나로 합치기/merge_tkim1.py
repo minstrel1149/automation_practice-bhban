@@ -28,6 +28,7 @@ for i, filename in enumerate(files):
     read_sheets = read_files.active
     if header == False:
         for header_i in range(read_sheets.max_column):
+            # openpyxl도 list 배열 형태로 업데이트가 가능하니, 다음 번에는 그걸로 시도
             write_sheet.cell(1, header_i+1).value = read_sheets.cell(1, header_i+1).value
         header = True
     for j in range(read_sheets.max_column):
