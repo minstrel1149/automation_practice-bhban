@@ -17,3 +17,4 @@
 1. xlsx 파일 1천개 양식 유지하며 하나로 합치기 실습 - openpyxl 활용
 2. xlsx 파일 1천개 양식 유지하며 하나로 합치기 실습2 - pandas에서 pd.concat 기능 활용
 3. 매크로 작성에서 책 저자 프로그램 대신 pyperclip 및 pyautogui를 활용(검색 시 많은 정보가 나오는 라이브러리 활용)
+4. 화면 정보 빠르게 뽑아오기 실습 - pyautogui 활용
