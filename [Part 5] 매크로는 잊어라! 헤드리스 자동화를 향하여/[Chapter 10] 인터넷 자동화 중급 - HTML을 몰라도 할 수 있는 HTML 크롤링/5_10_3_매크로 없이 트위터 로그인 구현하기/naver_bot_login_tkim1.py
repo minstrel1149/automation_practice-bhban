@@ -27,4 +27,5 @@ class LoginBot:
         id_input.send_keys(id)
         pw_input = self.driver.find_element(By.NAME, 'pw')
         pw_input.send_keys(pw)
+        # send_keys(Keys.RETURN) 대신 submit 활용
         pw_input.submit()
