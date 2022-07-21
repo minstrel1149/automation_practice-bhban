@@ -35,3 +35,4 @@
   - new_tab = driver.window_handles[-1]
   - driver.switch_to.window(new_tab)
   - driver.get(url)
+2. 다음 복습은 뚝딱뚝딱 파이썬 자동화 복습 이후로 예정
