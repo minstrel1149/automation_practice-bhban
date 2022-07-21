@@ -29,3 +29,9 @@
 1. 매크로 없이 뉴스기사 트위터 업로드 실습 - 트위터 업로드 대신 엑셀로 변환하는 방향으로 전환. 책 내용 대신 나만의 코드로 일단 작성
   - class의 이해도가 더 높아져야.. (메서드에서 'self.'를 넣어야 할 때와 넣지 않아도 될 때를 구분 필요)
   - 책에 있는 코드로도 해본 후 나한테 더 맞는게 무엇인지(확장성)을 고려할 필요
+### 2022년 7월 21일
+1. 코딩보다 Selenium 중요 함수 등 습득(크롬 드라이버에서 여러 개의 탭을 실행하는 법)
+  - driver.execute_script("window.open('');")
+  - new_tab = driver.window_handles[-1]
+  - driver.switch_to.window(new_tab)
+  - driver.get(url)
