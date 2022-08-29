@@ -27,7 +27,7 @@ def random_name():
     result += random.choice(last_name_samples)
     return result
 
-# os.makedirs 대신 활용 가능. os.mkdir('')보다는 이게 원하는 경로에 폴더 생성할 수 있어서 좋은듯, try/except로 예외 처ㅣㄹ
+# os.makedirs 대신 활용 가능. os.mkdir('')보다는 이게 원하는 경로에 폴더 생성할 수 있어서 좋은듯, try/except로 예외 처리
 try:
     (Path.cwd() / '[Part 2] 컴퓨터 자동화 기초' / '[Chapter 3] 컴퓨터! 커피 한 잔 마시고 올게, 전부 정리해놔!' / '2_3_1_회원 개인정보 파일 1천 개, 1초만에 만들기' / 'personal_info_tkim1').mkdir()
 except:
