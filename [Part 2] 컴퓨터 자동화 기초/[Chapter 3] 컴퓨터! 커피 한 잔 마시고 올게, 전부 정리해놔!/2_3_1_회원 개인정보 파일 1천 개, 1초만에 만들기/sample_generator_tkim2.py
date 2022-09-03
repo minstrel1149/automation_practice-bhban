@@ -26,6 +26,7 @@ def random_name():
     return result
 
 # 왜 Path.cwd()가 안먹지..? 현재 작업 디렉터리 위치가 다른가?
+# Path.home()으로 변경하여 모든 위치에서 수행할 때를 동일하게 설정
 try:
     (Path.home() / 'bhban_rpa-master' / '[Part 2] 컴퓨터 자동화 기초' / '[Chapter 3] 컴퓨터! 커피 한 잔 마시고 올게, 전부 정리해놔!' / '2_3_1_회원 개인정보 파일 1천 개, 1초만에 만들기' / 'personal_info_tkim2').mkdir()
 except:

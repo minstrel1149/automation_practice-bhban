@@ -17,6 +17,7 @@ outfile_name = 'merged_ID_tkim2.csv'
 
 with open(p3 / outfile_name, mode='w') as write_file:
     # csv의 headers(list형태)를 설정할 필요
+    # 한 번 설정되면 유지되어야하므로 for문 바깥에 위치
     headers = []
     # header가 없으므로 일단 False
     outfile_has_header = False

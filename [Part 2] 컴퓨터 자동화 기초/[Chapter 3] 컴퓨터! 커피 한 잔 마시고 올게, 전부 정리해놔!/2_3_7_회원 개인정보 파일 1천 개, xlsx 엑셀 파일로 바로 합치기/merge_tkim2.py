@@ -13,6 +13,7 @@ except:
 
 files = os.listdir(p2)
 # os.listdir() 대신 Path객체의 glob() 메서드 및 list comprehension 활용 가능
+# p2.glob('*.txt')는 Generator 객체(Lazy Iterator) 반환
 files2 = [x.name for x in p2.glob('*.txt')]
 
 wb = openpyxl.Workbook()
