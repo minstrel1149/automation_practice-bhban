@@ -41,6 +41,7 @@ for i in range(num_samples):
     contents = [name, age, email, phone, sex]
     wb = openpyxl.Workbook()
     sheet = wb.active
+    # zip을 for문으로 빼내기 위해 (head, content)의 튜플 형태 활용
     for j, (head, content) in enumerate(zip(header, contents)):
         sheet.cell(1, j+1).value = head
         sheet.cell(2, j+1).value = content
