@@ -72,3 +72,8 @@
   - new_tab = driver.window_handles[-1]
   - driver.switch_to.window(new_tab)
   - driver.get(url)
+2. 이번 학습사항 전체 빠른 복습 진행 - openpyxl, pyautogui, selenium 등
+3. 타 교재(automation_practice-sweigart) 간단 학습을 통한 적용여부 파악
+  - re.compile()로 대표되는 정규표현식(search, findall, sub 메서드)
+  - Path, os, shutil 등으로 대표되는 경로 파악(cf. Path.cwd() == Path('.'), 상위폴더는 '..')
+  - (os.walk()의 경우 folder_name, subfolders, filenames의 튜플로 분리 가능)
