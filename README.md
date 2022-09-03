@@ -80,4 +80,5 @@
   - requests, BeautifulSoup, selenium 등으로 대표되는 웹 크롤링/스크래핑
   - (bsObj.find_all('img', {'class':'xxx'})[0].get('title') 과 같이 get() 메서드 활용 가능)
   - openpyxl 및 gspread의 기초 비교, PyPDF2 라이브러리 등 엑셀, 구글스프레드시트, PDF파일 컨트롤
-  - 
+  - 시간관리(time, datetime, timedelta 등) 및 프로그램 실행 기초(subprocess, threading)
+  - email 모듈 및 smtplib 모듈 활용하여 이메일 보내기
