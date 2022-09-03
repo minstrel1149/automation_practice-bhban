@@ -65,3 +65,10 @@
 ### 2022년 9월 2일
 1. 매크로 없이 네이버, 다음 로그인 구현 실습 - find_element(By.NAME, 'id') 등 이용
 2. 매크로 없이 뉴스기사 엑셀 저장 실습. 책 내용 대신 나만의 코드로 작성 - 링크까지 추출(.attrs 속성)
+
+### 2022년 9월 3일
+1. 코딩보다 Selenium 중요 함수 등 습득(크롬 드라이버에서 여러 개의 탭을 실행하는 법)
+  - driver.execute_script("window.open('');")
+  - new_tab = driver.window_handles[-1]
+  - driver.switch_to.window(new_tab)
+  - driver.get(url)
